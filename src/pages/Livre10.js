@@ -77,7 +77,7 @@ function Livre10() {
 						<h1 className="text-white text-2xl font-bold uppercase mt-10">Gestion du Stress et de l’Anxiété</h1>
 						<h1 className="text-blue-700 mt-10 text-2xl">Naviguer à travers les tempêtes intérieures</h1>
 					</div>
-					<div className="w-[80%] m-auto mt-10">
+					<div className="w-[100%] m-auto mt-10">
 						<p className="text-gray-400 text-[20px] max-md:text-[17px]">
 							Le stress et l’anxiété sont des compagnons familiers dans la vie moderne, des ombres qui semblent
 							s’accroître à mesure que le monde tourne plus vite, que les exigences s’accumulent, et que les attentes,
