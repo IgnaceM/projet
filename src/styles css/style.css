@@ -1,0 +1,115 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right , rgb(41, 1, 41) , rgb(0, 31, 43) ); 
+}
+
+.theme {
+  background: black;
+}
+
+#header {
+  background:linear-gradient(to right , rgb(41, 1, 41) , rgb(0, 31, 43) );
+  border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+}
+
+#container {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(65, 105, 225, 0.227);
+}
+
+#link:hover {
+  background-color: rgba(65, 105, 225, 0.104);
+  color: royalblue;
+  border-bottom: 3px solid royalblue;
+  padding: 7px;
+  width: 150px;
+}
+
+#scale {
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+
+#link:active {
+  background-color: rgba(65, 105, 225, 0.162);
+  color: royalblue;
+  border-bottom: 3px solid royalblue;
+  padding: 7px;
+  width: 150px;
+}
+
+#container::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.186);
+  width: 8px;
+  cursor: pointer;
+  opacity: 0%;
+}
+
+#container::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.244);
+  cursor: pointer;
+  display: none;
+}
+
+#container::-webkit-scrollbar-thumb:hover{
+  display: block;
+}
+
+#ico {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.164);
+}
+
+#footer {
+  background:linear-gradient(to right , rgb(41, 1, 41) , rgb(0, 31, 43) ) ;
+  border-top: 1px solid rgba(65, 105, 225, 0.374);
+  color: white;
+}
+
+#headMenu {
+  border-bottom: 1px solid rgba(65, 105, 225, 0.559);
+  padding-bottom: 10px;
+}
+
+#menu {
+  visibility: hidden;
+  z-index: 3;
+}
+
+#play , #pause {
+  border:1px solid white ;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: blue;
+}
+
+
+#theme {
+  border: 1px solid rgba(255, 255, 255, 0.345);
+
+}
+
+/* Style pour le lien actif */
+a.active {
+  color: royalblue;
+  background-color: #007bff11; /* Couleur de fond active */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.activeTitle {
+  background-color: rgba(65, 177, 225, 0.612);
+}
+
+.actv {
+  color: royalblue !important;
+}
